@@ -44,7 +44,7 @@ class ClinicDemoTests: XCTestCase {
 
             DispatchQueue.main.asyncAfter(deadline: .now() + waitTime) { [self] in
              
-                XCTAssertFalse(clinicViewModel.showErrorDialog, "Error dialog should not be shown")
+                XCTAssertEqual(self.clinicViewModel.showErrorDialog, false)
     
            
                 expectation.fulfill()
