@@ -8,7 +8,7 @@
 import Foundation
 import Combine
 
-class ViewModel: ObservableObject {
+class ClinicViewModel: ObservableObject {
     @Published var clinics: [Clinic] = []
     @Published var selectedClinic: Clinic?
     @Published var todayTimeSlots: [TimeSlot] = []
