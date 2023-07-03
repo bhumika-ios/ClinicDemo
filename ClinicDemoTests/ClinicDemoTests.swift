@@ -43,7 +43,7 @@ class ClinicDemoTests: XCTestCase {
             let waitTime = TimeInterval(5)
 
             DispatchQueue.main.asyncAfter(deadline: .now() + waitTime) { [self] in
-             
+                
                 XCTAssertEqual(self.clinicViewModel.showErrorDialog, false)
     
            
