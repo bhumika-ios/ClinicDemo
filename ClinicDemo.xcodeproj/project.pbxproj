@@ -15,6 +15,7 @@
 		AC786D492A4D9FBD008F3251 /* ClinicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC786D482A4D9FBD008F3251 /* ClinicModel.swift */; };
 		AC786D4B2A4D9FFA008F3251 /* ClinicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC786D4A2A4D9FF9008F3251 /* ClinicViewModel.swift */; };
 		AC8DF1242A52B8AC0084ABDF /* TimeSlotListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8DF1232A52B8AC0084ABDF /* TimeSlotListView.swift */; };
+		ACE158E32A5403DB00854DF0 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE158E22A5403DB00854DF0 /* APIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		AC786D482A4D9FBD008F3251 /* ClinicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClinicModel.swift; sourceTree = "<group>"; };
 		AC786D4A2A4D9FF9008F3251 /* ClinicViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClinicViewModel.swift; sourceTree = "<group>"; };
 		AC8DF1232A52B8AC0084ABDF /* TimeSlotListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSlotListView.swift; sourceTree = "<group>"; };
+		ACE158E22A5403DB00854DF0 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				AC786D4A2A4D9FF9008F3251 /* ClinicViewModel.swift */,
 				AC786D3C2A4D9F89008F3251 /* ContentView.swift */,
 				AC8DF1232A52B8AC0084ABDF /* TimeSlotListView.swift */,
+				ACE158E22A5403DB00854DF0 /* APIManager.swift */,
 				AC786D3E2A4D9F8B008F3251 /* Assets.xcassets */,
 				AC786D402A4D9F8B008F3251 /* Preview Content */,
 			);
@@ -214,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACE158E32A5403DB00854DF0 /* APIManager.swift in Sources */,
 				AC786D3D2A4D9F89008F3251 /* ContentView.swift in Sources */,
 				AC786D492A4D9FBD008F3251 /* ClinicModel.swift in Sources */,
 				AC8DF1242A52B8AC0084ABDF /* TimeSlotListView.swift in Sources */,

@@ -31,10 +31,10 @@ struct ContentView: View {
                     }
                 }
                 .navigationTitle("Clinics")
+                
             }
-            
             .alert(isPresented: $viewModel.showErrorDialog) {
-                Alert(title: Text("Sorry"), message: Text("No appointments available."), dismissButton: .default(Text("Ok")))
+                Alert(title: Text(viewModel.title), message: Text(viewModel.errorMessage), dismissButton: .default(Text("Ok")))
             }
         }
     }
