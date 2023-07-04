@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AC0E13EC2A503F2600BEBF11 /* ClinicDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0E13EB2A503F2600BEBF11 /* ClinicDemoTests.swift */; };
 		AC786D3B2A4D9F89008F3251 /* ClinicDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC786D3A2A4D9F89008F3251 /* ClinicDemoApp.swift */; };
 		AC786D3D2A4D9F89008F3251 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC786D3C2A4D9F89008F3251 /* ContentView.swift */; };
 		AC786D3F2A4D9F8B008F3251 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC786D3E2A4D9F8B008F3251 /* Assets.xcassets */; };
@@ -16,6 +15,8 @@
 		AC786D4B2A4D9FFA008F3251 /* ClinicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC786D4A2A4D9FF9008F3251 /* ClinicViewModel.swift */; };
 		AC8DF1242A52B8AC0084ABDF /* TimeSlotListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8DF1232A52B8AC0084ABDF /* TimeSlotListView.swift */; };
 		ACE158E32A5403DB00854DF0 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE158E22A5403DB00854DF0 /* APIManager.swift */; };
+		ACE158E62A543EC100854DF0 /* APIManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE158E42A543EBE00854DF0 /* APIManagerTests.swift */; };
+		ACE158E82A54439E00854DF0 /* ClinicViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE158E72A54439E00854DF0 /* ClinicViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +31,6 @@
 
 /* Begin PBXFileReference section */
 		AC0E13E22A503AC600BEBF11 /* ClinicDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClinicDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC0E13EB2A503F2600BEBF11 /* ClinicDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClinicDemoTests.swift; sourceTree = "<group>"; };
 		AC786D372A4D9F89008F3251 /* ClinicDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClinicDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC786D3A2A4D9F89008F3251 /* ClinicDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClinicDemoApp.swift; sourceTree = "<group>"; };
 		AC786D3C2A4D9F89008F3251 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,6 +40,8 @@
 		AC786D4A2A4D9FF9008F3251 /* ClinicViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClinicViewModel.swift; sourceTree = "<group>"; };
 		AC8DF1232A52B8AC0084ABDF /* TimeSlotListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSlotListView.swift; sourceTree = "<group>"; };
 		ACE158E22A5403DB00854DF0 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		ACE158E42A543EBE00854DF0 /* APIManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManagerTests.swift; sourceTree = "<group>"; };
+		ACE158E72A54439E00854DF0 /* ClinicViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClinicViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +65,8 @@
 		AC0E13E32A503AC600BEBF11 /* ClinicDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				AC0E13EB2A503F2600BEBF11 /* ClinicDemoTests.swift */,
+				ACE158E42A543EBE00854DF0 /* APIManagerTests.swift */,
+				ACE158E72A54439E00854DF0 /* ClinicViewModelTests.swift */,
 			);
 			path = ClinicDemoTests;
 			sourceTree = "<group>";
@@ -209,7 +212,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC0E13EC2A503F2600BEBF11 /* ClinicDemoTests.swift in Sources */,
+				ACE158E62A543EC100854DF0 /* APIManagerTests.swift in Sources */,
+				ACE158E82A54439E00854DF0 /* ClinicViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
