@@ -49,7 +49,7 @@ class APIManagerTests: XCTestCase {
     
     func testFetchTimeSlots() {
         
-        let clinic = Clinic(displayName: "Providence ExpressCare Lake Stevens", urlName: "LakeStevens") // Provide a valid clinic object
+        let clinic = Clinic(displayName: "Providence ExpressCare Lake Stevens", urlName: "LakeStevens")
         let expectation = XCTestExpectation(description: "Fetch time slots")
         
         let publisher = apiManager.fetchTimeSlots(for: clinic)
@@ -63,6 +63,8 @@ class APIManagerTests: XCTestCase {
             }
         }, receiveValue: { timeslotsResponse in
             // Add response
+            XCTAssertFalse(timeslotsResponse.scheduleDays.isEmpty, "Fetched time slots should not be empty")
+        
             
         })
         
